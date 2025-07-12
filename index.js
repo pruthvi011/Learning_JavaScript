@@ -59,11 +59,20 @@ document.write("<br>");
     //     document.write(false);
     // }
 
-    if (m === n) {
-        document.write(true);
-    } else {
-        document.write(false);
-    }
+    // if (m === n) {
+    //     document.write(true);
+    // } else {
+    //     document.write(false);
+    // }
+
+
+    function Hello(){
+            alert(' Single Click Eg.');
+}
+
+
+
+
 
 
 

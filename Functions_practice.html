@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Practice</title>
+</head>
+<body>
+    <script>
+        
+        /*
+        function greet(name) {
+            if(!name) {
+                alert('Hi there!');
+            }
+            else{
+                alert(`Hello ${name}!`);
+            }
+        }
+        greet('Pruthviraj');
+        greet('Eggsy');
+        greet();
+        */
+
+        /* Conversion Of Degrees Celsius into Degrees Fahrenheit:-
+        
+        convertToFahrenheit(25);
+
+        function convertToFahrenheit(celsius) {
+            Fahrenheit = (celsius*9/5)+32;
+            alert(`${celsius} degree celsius in Fahrenheit: ${Fahrenheit}`);
+        }
+
+        */
+
+         /* Conversion Of Degrees Fahrenheit into Degrees Celsius:-
+        
+        convertToCelsius(86);
+
+         function convertToCelsius(Fahrenheit) {
+            Celsius = (Fahrenheit - 32) * 5/9;
+            alert(` ${Fahrenheit} Fahrenheit in degree celsius: ${Celsius}`);
+         }
+        
+         */
+
+         convertTemperature(25,'C');
+         convertTemperature(86,'F');
+        function convertTemperature(degrees,unit) {
+            if(unit === 'C')
+            {
+                convertToFahrenheit(degrees);
+            }
+            if(unit === 'F')
+            {
+                convertToCelsius(degrees);
+            }
+        }
+
+        function convertToFahrenheit(degrees) {
+            Fahrenheit = (degrees*9/5)+32;
+            alert(`${degrees} degree celsius : ${Fahrenheit} degree Fahrenheit`);
+        }
+
+        function convertToCelsius(degrees) {
+            Celsius = (degrees - 32) * 5/9;
+            alert(` ${degrees} degree Fahrenheit : ${Celsius} degree celsius`);
+         }
+         
+
+    </script>
+</body>
+</html>
